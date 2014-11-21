@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color:lightgrey;
+}
+
+#app {
+    background-color:#F2F1EC;
+    width:90%;
+    max-width: 960px;
+    border-radius: 5px;
+    box-shadow: 0 0 16px rgba(0,0,0,.4);
+    margin: 4em auto;
+    padding:1.25%;
+}
+.peer_type {
+    /*display:none*/
+}
+
+#peer_type_host:checked .peer_type_host,
+#peer_type_guest:checked .peer_type_guest {
+    font-weight: bold;
+}
